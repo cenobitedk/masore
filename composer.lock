@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "41c96860f2520ed56a937d52b1f4a0fc",
-    "content-hash": "9adf970f35926ecec56ab39255c714e8",
+    "hash": "3599b2d314fd5b31f0efeca865069b69",
+    "content-hash": "71d04f6d6befb0fe40d45fa239398b56",
     "packages": [
         {
             "name": "composer/installers",
@@ -352,7 +352,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.11.zip",
-                "reference": null,
+                "reference": "tags/4.4.11",
                 "shasum": null
             },
             "require": {
@@ -360,26 +360,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
-        },
-        {
-            "name": "wpackagist-plugin/custom-post-type-ui",
-            "version": "1.4.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
-                "reference": "tags/1.4.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.4.3.zip",
-                "reference": "tags/1.4.3",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/custom-post-type-ui/"
         },
         {
             "name": "wpackagist-plugin/pods",
