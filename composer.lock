@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8d55134e3b9841b1266951ea6da0003c",
+    "content-hash": "ae6fc61b8840d6949198dd1bed4369a5",
     "packages": [
         {
             "name": "composer/installers",
@@ -361,6 +361,26 @@
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
+            "name": "wpackagist-plugin/codepress-admin-columns",
+            "version": "2.5.6.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/codepress-admin-columns/",
+                "reference": "tags/2.5.6.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/codepress-admin-columns.2.5.6.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/codepress-admin-columns/"
+        },
+        {
             "name": "wpackagist-plugin/pods",
             "version": "2.6.8",
             "source": {
@@ -371,7 +391,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/pods.2.6.8.zip",
-                "reference": null,
+                "reference": "tags/2.6.8",
                 "shasum": null
             },
             "require": {
@@ -391,7 +411,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/timber-library.1.2.1.zip",
-                "reference": null,
+                "reference": "tags/1.2.1",
                 "shasum": null
             },
             "require": {
@@ -411,7 +431,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.3.zip",
-                "reference": null,
+                "reference": "tags/0.6.3",
                 "shasum": null
             },
             "require": {
